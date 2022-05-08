@@ -87,7 +87,7 @@ public class ItemDaoImpl implements ItemDao {
 		return flag;
 	}
 		
-
+// create delete function 
 	@Override
 	public boolean delete(int id) {
 		boolean flag = false;
