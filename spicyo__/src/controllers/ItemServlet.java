@@ -18,9 +18,7 @@ import dao.ItemDaoImpl;
 import model.Item;
 import model.Item;
 
-/**
- * Servlet implementation class ItemServlet
- */
+
 @WebServlet("/ItemServlet")
 public class ItemServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -28,9 +26,7 @@ public class ItemServlet extends HttpServlet {
 	RequestDispatcher dispatcher = null;
 	ItemDao itemDao = null;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+    
     public ItemServlet() {
     	itemDao = new ItemDaoImpl();
     }
