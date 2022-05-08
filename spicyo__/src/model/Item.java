@@ -1,7 +1,7 @@
 package model;
 
 public class Item {
-	
+	//variabals
 	private Integer id;
 
 	private String item_id;
